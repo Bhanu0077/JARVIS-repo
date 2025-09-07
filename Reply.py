@@ -33,6 +33,8 @@ def get_audio():
     return said
 
 text = get_audio()
+
+#using if cases to respond to specific phrases
 if "hello" in text.lower():
     speak("Hello, how can I assist you?")
 
